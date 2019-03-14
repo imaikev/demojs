@@ -1,20 +1,29 @@
 {
   "name": "demojs",
-  "version": "1.0.0",
+  "version": "0.2.0",
+  "description": "A sample Node.js",
+  "main": "index.js",
   "scripts": {
-    "start": "tsc && concurrently \"npm run  tsc:w\" \"npm run lite\" ",
-    "tsc": "tsc",
-    "tsc:w": "tsc -w",
-    "lite": "lite-server",
-    "typings": "typings",
-    "postinstall": "typings install"
+    "start": "node index.js"
   },
-  "license": "ISC",
   "dependencies": {
-    "angular2": "^2.0.0",
-    "concurrently": "^2.0.0",
-   "lite-server": "^2.0.0",
-   "typescript": "^1.8.10",
-   "typings": "^0.7.12"    
-  }  
+    "express": "^4.13.3"
+  },
+  "engines": {
+    "node": "4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-sample"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "author": "Mark Pundsack",
+  "contributors": [
+    "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)"
+  ],
+  "license": "MIT"
 }
