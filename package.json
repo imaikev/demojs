@@ -12,7 +12,8 @@
     "express": "^4.13.3",
     "angular2": "2.0.0-beta.21",
     "@angular-devkit/build-angular": "latest",
-    "@angular/compiler-cli": "latest"
+    "@angular/compiler-cli": "latest",
+    "@angular/compiler": "latest"
   },
   "engines": {
     "node": "4.0.0"
