@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "preinstall": "npm install @angular/cli",
+    "postinstall": "ng new angular-animations-site",
     "start": "node index.js"    
   },
   "dependencies": {
