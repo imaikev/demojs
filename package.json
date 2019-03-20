@@ -6,7 +6,7 @@
   "scripts": {
     "preinstall": "npm install @angular/cli",
     "postinstall": "ng new angular-animations-site",
-    "start": ""    
+    "start": "node index.js"    
   },
   "dependencies": {
     "express": "^4.13.3",
