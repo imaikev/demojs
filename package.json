@@ -13,7 +13,9 @@
     "angular2": "2.0.0-beta.21",
     "@angular-devkit/build-angular": "latest",
     "@angular/compiler-cli": "latest",
-    "@angular/compiler": "latest"
+    "@angular/compiler": "latest",
+    "@angular/compiler": "latest",
+    "@angular/core": "latest"
   },
   "engines": {
     "node": "4.0.0"
