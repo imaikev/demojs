@@ -4,7 +4,8 @@
   "description": "A sample Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "preinstall": "npm install @angular/cli",
+    "start": "node index.js"    
   },
   "dependencies": {
     "express": "^4.13.3",
