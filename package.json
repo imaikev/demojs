@@ -3,8 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "start": "node server.js",
-    "preinstall": "npm install @angular/cli",
-    "postinstall": "ng build --prod --aot && node index.js"
+    "preinstall": "npm install @angular/cli"
   },
   "private": true,
   "dependencies": {
