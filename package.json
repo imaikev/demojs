@@ -6,16 +6,16 @@
   "scripts": {
     "preinstall": "npm install @angular/cli",
     "postinstall": "ng new angular-animations-site && cd ./angular-animations-site && ng build --prod",
-    "start": "node index.js"    
+    "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.13.3",
-    "angular2": "2.0.0-beta.21",
     "@angular-devkit/build-angular": "latest",
+    "@angular/cli": "^7.3.6",
+    "@angular/compiler": "latest",
     "@angular/compiler-cli": "latest",
-    "@angular/compiler": "latest",
-    "@angular/compiler": "latest",
-    "@angular/core": "latest"
+    "@angular/core": "latest",
+    "angular2": "2.0.0-beta.21",
+    "express": "^4.13.3"
   },
   "engines": {
     "node": "4.0.0"
