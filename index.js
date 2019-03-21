@@ -4,7 +4,7 @@ const path = require('path')
 const http = require('http')
 
 app.set('port', (process.env.PORT || 8080))
-app.use(express.static(__dirname + '/angular-animations-site/dist/angular-animations-site'));
+app.use(express.static(__dirname + '/dist/angular-animations-site'));
 
 app.get('/*', function(request, response) {
   response.sendFile( path.join(__dirname))
