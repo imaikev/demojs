@@ -2,7 +2,7 @@
   "name": "angular-animations-site",
   "version": "0.0.0",
   "scripts": {
-    "start": "node server.js",
+    "start": "ls -lta && node server.js",
     "build": "ng build --prod --aot",
     "preinstall": "npm install @angular/cli"
   },
