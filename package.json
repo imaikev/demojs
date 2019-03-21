@@ -2,6 +2,7 @@
   "name": "angular-animations-site",
   "version": "0.0.0",
   "scripts": {
+    "ng" : "ng",
     "preinstall": "npm install @angular/cli",
     "postinstall": "ng build --prod --aot && node index.js"
   },
